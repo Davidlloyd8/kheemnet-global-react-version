@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  font-family: "Poppins";
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff;
+}
+/* Navigation */
+.navbar {
+  background-color: #fff !important;
+}
+.navbar-brand {
+  font-size: 32px;
+  font-weight: 800;
+}
+ul.navbar-nav {
+  margin-left: 400px;
+}
+.nav-item {
+  margin-left: 60px;
+}
+.nav-link {
+  font-size: 20px;
+  font-weight: 500;
+}
+.nav-link:hover {
+  color: cornflowerblue;
+  font-size: 25px;
+  font-weight: 600;
+}
+/* End of Navigation */
+/*Hero Section*/
+#hero-image1,
+#hero-image2,
+#hero-image3 {
+  background-size: cover !important;
+  height: 700px;
+}
+#hero-image1 {
+  background: url("images/vecteezy_hand-showing-a-light-bulb-and-gear-symbol_2306959.jpg")
+    no-repeat;
+}
+#hero-image2 {
+  background: url("images/vecteezy_high-voltage-tower-with-sunset-background_6417827_879.jpg")
+    no-repeat;
+}
+#hero-image3 {
+  background: url("images/vecteezy_watthour-meter-of-electricity-hung-on-the-cement-pole-beside_6836359_832.jpg")
+    no-repeat;
+}
+.hero_text,
+.hero_text1,
+.hero_text2 {
+  margin-top: 270px;
+  padding: 35px;
+  color: blue;
+  width: 410px;
+}
+.hero_text h2,
+.hero_text1 h2,
+.hero_text2 h2 {
+  font-family: "Montserrat";
+  font-size: 45px;
+  font-weight: 700;
+}
+.hero_text p,
+.hero_text1 p,
+.hero_text2 p {
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+/*End of Hero Section*/
+/*About Section*/
+.about_section {
+  padding: 40px;
+}
+.about_section_text h1,
+#wtcs h1,
+.fmcg h3 {
+  letter-spacing: 0.2em;
+  font-weight: 700;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+.about_section_text h1 + p,
+#wtcs h1 + p,
+.fmcg h3 + p {
+  letter-spacing: 0.12em;
+  margin-bottom: 45px;
+}
+.about_section_text_color {
+  color: cornflowerblue;
+}
+.about_section_text_btn {
+  width: 40%;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.image_engineer {
+  width: 100%;
+  height: 100%;
+}
+/*End of About Section*/
+/*Product*/
+.card-img-top {
+  max-height: 200px;
+  min-height: 138px;
+}
+.card {
+  width: 22rem;
+}
+p.card-text + a.btn {
+  width: 35%;
+  padding: 5px;
+  background-color: cornflowerblue;
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+}
+#product_section_viewall {
+  width: 20%;
+  padding: 15px;
+  font-size: 22px;
+  font-weight: 500;
+}
+/*End of Product*/
+/*Why Choose us*/
+.wtcs {
+  background-color: cornflowerblue;
+  opacity: 0.8;
+  width: 500px;
+  padding: 30px;
+  margin: 40px;
+  color: #fff;
+}
+.wtcs h3 {
+  color: #000;
+  font-weight: 700;
+  font-family: "Montserrat";
+}
+.wtcs p {
+  font-size: 19px;
+  margin-top: 20px;
+}
+.fa-circle-check {
+  color: greenyellow;
+  font-size: 25px;
+  margin-right: 5px;
+}
+
+/*End of Why choose us*/
+/*Contact*/
+.contact_box {
+  background-color: cornflowerblue;
+  background-color: hsl(0, 0%, 90%);
+  padding-top: 30px;
+}
+textarea {
+  outline: none;
+  resize: none;
+}
+.form-control {
+  border-radius: 12px;
+}
+input[type="submit"] {
+  font-weight: 700;
+  font-size: 19px;
+  font-family: "Montserrat";
+}
+/*End of Contact*/
+/*Footer*/
+.footer_list {
+  text-align: center;
+}
+.footer_list li {
+  display: inline;
+  margin-right: 10px;
+}
+.footer_list li .footer_link {
+  text-decoration: none;
+  font-size: 19px;
+  color: #fff;
+  font-weight: 500;
+}
+p.reserved {
+  font-size: 15px;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  /*Navigation*/
+  ul.navbar-nav {
+    margin-left: auto !important;
+  }
+  /*Hero Section*/
+
+  /*About Section*/
+  #hide_box {
+    display: none;
+  }
+  /*Product Section*/
+  .card {
+    width: 10rem;
+  }
+  .card-title {
+    font-size: 16px;
+  }
+  .card-text {
+    font-size: 12px;
+  }
+  p.card-text + a.btn {
+    padding: 2px;
+    width: 70%;
+  }
+  /*Wtcs*/
+  .wtcs {
+    margin: 0;
+    width: 100%;
+  }
+  .wtcs p {
+    font-size: 16px;
+  }
+  .fa-circle-check {
+    font-size: 17px;
+  }
+  /*Contact*/
+  .footer_list {
+    text-align: left;
+    padding-left: 0;
+  }
+  .footer_list li {
+    display: block;
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  /*About Section*/
+  .about_section_text h1,
+  #wtcs h1,
+  .fmcg h3 {
+    letter-spacing: 0.1em;
+  }
+  .about_section_text h1 + p,
+  #wtcs h1 + p,
+  .fmcg h3 + p {
+    letter-spacing: 0.01em;
+  }
+  .about_section_text_btn {
+    width: 60%;
+  }
+  /*Hero Section*/
+  .hero_text h2,
+  .hero_text1 h2,
+  .hero_text2 h2 {
+    font-size: 30px;
+  }
+  .hero_text p,
+  .hero_text1 p,
+  .hero_text2 p {
+    font-size: 14px;
+  }
+  /*Product Section*/
+  .col-3 {
+    margin-right: 80px;
+  }
+  .card {
+    width: 9.5rem;
+  }
+  .card-text {
+    font-size: 10px;
+  }
+
+  #hide_card {
+    display: none;
+  }
+  p.card-text + a.btn {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 380px) {
+  /*About Section*/
+  .about_section_text h1 {
+    font-size: 23px;
+  }
+  .about_section_text h1 + p {
+    font-size: 14px;
+    font-weight: 300;
+  }
+  /*Product Section*/
+  #product_section_viewall {
+    width: 60%;
+  }
+  .col-3 {
+    margin-right: 70px;
+  }
+  .card {
+    width: 8.5rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .col-3 {
+    margin-right: 78px;
+    margin-left: -18px;
+  }
+  .card {
+    width: 8rem;
+  }
+}
