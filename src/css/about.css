@@ -1,0 +1,42 @@
+section {
+  background-color: cornflowerblue;
+  height: 250px;
+}
+section h1 {
+  padding-top: 150px;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: #fff;
+}
+.about_text {
+  font-size: 18px;
+  line-height: 1.7em;
+  word-spacing: 0.4em;
+}
+.about_container {
+  background-color: antiquewhite;
+}
+
+@media screen and (max-width: 768px) {
+  .hide_img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .about_section {
+    padding: 20px;
+  }
+  .about_text {
+    font-size: 15px;
+    line-height: 1.5em;
+    word-spacing: 0.2em;
+  }
+  #about_why {
+    font-size: 23px;
+  }
+  h4 {
+    font-size: 17px;
+  }
+}

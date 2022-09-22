@@ -27,7 +27,7 @@ ul.navbar-nav {
   font-weight: 500;
 }
 .nav-link:hover {
-  color: cornflowerblue;
+  color: cornflowerblue !important;
   font-size: 25px;
   font-weight: 600;
 }
