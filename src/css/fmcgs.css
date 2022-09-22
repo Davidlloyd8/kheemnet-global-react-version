@@ -1,0 +1,44 @@
+.hero_section {
+  background-color: cornflowerblue;
+  height: 250px;
+}
+.hero_section h1 {
+  padding-top: 150px;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 800;
+  color: #fff;
+}
+#fmcgs_container {
+  background-color: antiquewhite;
+}
+.about_section p {
+  font-weight: 500;
+  font-size: 25px;
+}
+.card {
+  width: 100% !important;
+  border: 5px solid cornflowerblue;
+}
+h2.card-title {
+  font-size: 25px;
+  text-align: center;
+}
+
+@media screen and (max-width: 575px) {
+  .hero_section h1 {
+    font-size: 23px;
+    font-weight: 700;
+  }
+  .about_section {
+    padding: 15px;
+  }
+  .about_section p {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left !important;
+  }
+  #fmcgs_product {
+    font-size: 21px;
+  }
+}
