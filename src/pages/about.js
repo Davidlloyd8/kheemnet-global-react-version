@@ -16,11 +16,11 @@ function About() {
       </section>
       {/* End of Hero Section */}
       {/* About Container */}
-    <div class="container-fluid about_container">
-      <div class="row about_section">
-        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 col-xxl-6 mt-4">
-          <h1 class="mb-4">WELCOME TO KHEEMNET GLOBAL</h1>
-          <p class="about_text">
+    <div className="container-fluid about_container">
+      <div className="row about_section">
+        <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6 col-xxl-6 mt-4">
+          <h1 className="mb-4">WELCOME TO KHEEMNET GLOBAL</h1>
+          <p className="about_text">
             Kheemnet Global is a long established fact that a reader will be
             distracted by the readable content of a page when looking at its
             layout. The point of using Lorem Ipsum is that it has a more-or-less
@@ -34,27 +34,27 @@ function About() {
           </p>
         </div>
         <div
-          class="col-sm-12 col-md-12 col-lg-12 col-xl-6 col-xxl-6 h-100 mt-4 hide_img"
+          className="col-sm-12 col-md-12 col-lg-12 col-xl-6 col-xxl-6 h-100 mt-4 hide_img"
         >
           <img
             src={aboutImage}
             alt=""
-            class="img-fluid"
+            className="img-fluid"
           />
         </div>
-        <h1 class="text-center mt-5" id="about_why">WHY CHOOSE KHEEMNET GLOBAL?</h1>
+        <h1 className="text-center mt-5" id="about_why">WHY CHOOSE KHEEMNET GLOBAL?</h1>
         <div
-          class="col-sm-12 col-md-12 col-lg-12 col-xl-6 col-xxl-6 h-100 mt-5 hide_img"
+          className="col-sm-12 col-md-12 col-lg-12 col-xl-6 col-xxl-6 h-100 mt-5 hide_img"
         >
           <img
             src={engineer}
             alt=""
-            class="img-fluid"
+            className="img-fluid"
           />
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 col-xxl-6 mt-5">
+        <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6 col-xxl-6 mt-5">
           <h4>
-            <i class="fa-solid fa-circle-check"></i> Superior precise quality
+            <i className="fa-solid fa-circle-check"></i> Superior precise quality
           </h4>
           <p>
             We at kheemnet global provides you with high qualities just as PETE
@@ -65,7 +65,7 @@ function About() {
             >
           </p>
           <h4>
-            <i class="fa-solid fa-circle-check"></i> Connecting with core
+            <i className="fa-solid fa-circle-check"></i> Connecting with core
             consumers
           </h4>
           <ol>
@@ -97,7 +97,7 @@ function About() {
             </li>
           </ol>
           <h4>
-            <i class="fa-solid fa-circle-check"></i> The problem with
+            <i className="fa-solid fa-circle-check"></i> The problem with
             personalisation
           </h4>
           <p>
@@ -108,7 +108,7 @@ function About() {
             information they learn about their prospects and customers. Kheemnet
             Global provides PRIVACY, SECURITY, JUSTICE, EQUITY & ACCESSIBILITY.
           </p>
-          <h4><i class="fa-solid fa-circle-check"></i> Creating Value</h4>
+          <h4><i className="fa-solid fa-circle-check"></i> Creating Value</h4>
           <p>
             Creating value means maximizing benefits within an acceptable price
             point. Benefits and cost are the two key components of customer
